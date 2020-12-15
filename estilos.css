@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 14px;
+}
+h1,
+h2,
+h3,
+h4,
+h5{
+  color:hsl(233, 26%, 24%) ;
+  margin: 0;
+}
+h2 {
+  padding: 60px 0;
+  font-size: 42px;
+  font-weight: 400;
+}
+h4 {
+  margin: 20px 0;
+}
+h6 {
+  color:hsl(233, 8%, 62%) ;
+  margin: 10px 0 20px;
+}
+p {
+  color: hsl(233, 8%, 62%);
+}
+.wrapper {
+  margin: auto;
+  max-width: 1200px;
+}
+.wrapper-1 {
+  margin: auto;
+  max-width: 1200px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  background: white;
+}
+.header-section {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.header-section a {
+  text-decoration: none;
+  color: gray;
+  gap: 20px;
+}
+.header-container button {
+  border-radius: 20px;
+  padding: 10px 30px;
+  border: none;
+  background: linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%) 90% );
+  color: white;
+  margin: 10px 0;
+}
+.body-principal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: hsl(0, 0%, 98%);
+}
+.image {
+  background: url('images/bg-intro-desktop.svg');
+  position: relative;
+  background-position: 10% 80%;
+  background-repeat: no-repeat;
+  background-size: 220%;
+}
+.body-principal-image {
+  position: relative;
+  top: -60px;
+  left: 60px;
+}
+.body-principal-left {
+  margin: 0;
+  width: 600px;
+  margin-top: -170px;
+}
+.principal-title {
+  font-weight: 400;
+  font-size: 50px;
+  width: 500px;
+  margin-bottom: 30px;
+}
+.principal-p {
+  font-size: 18px;
+  padding-right: 80px;
+  line-height: 25px;
+  color: hsl(233, 8%, 62%);
+}
+.principal-button {
+  border-radius: 20px;
+  padding: 10px 30px;
+  border: none;
+  background: linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%) 90% );
+  color: white;
+  margin: 10px 0;
+}
+.Why-choose-Easybank {
+  margin-bottom: 70px;
+}
+.Why-choose-Easybank h2 {
+  color: hsl(233, 26%, 24%);
+  font-size: 42px;
+  font-weight: 400;
+  padding: 70px 0 20px;
+}
+.Why-choose-Easybank p {
+  width: 600px;
+  font-size: 17px;
+  line-height: 25px;
+  color: hsl(233, 8%, 62%);
+}
+.Why-choose-Easybank-advantage {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+.advantage {
+  padding-right: 15px;
+}
+.advantage h4 {
+  font-size: 17px;
+  color: hsl(233, 26%, 24%);
+  font-weight: 700;
+}
+.advantage p {
+  color: hsl(233, 8%, 62%);
+}
+.Why-choose-Easybank-articles {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.Why-choose-Easybank-articles img {
+  border-radius: 8px 8px 0 0;
+  height: 213px;
+  width: 285px;
+}
+.article-info {
+  padding: 18px;
+  background: white;
+  margin-bottom: 30px;
+  border-radius: 0 0 8px 8px;
+}
+.footer {
+  background: hsl(233, 26%, 24%);
+}
+.footer-flexbox {
+  padding: 40px 0;
+  display: flex;
+  margin: auto;
+  max-width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-flexbox-r {
+  display: flex;
+  gap: 100px;
+}
+.logo {
+  background: white;
+  margin-bottom: 30px;
+}
+.icons img {
+  margin: 0 5px;
+}
+.invite button {
+   border-radius: 20px;
+  padding: 10px 30px;
+  border: none;
+  background: linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%) 90% );
+  color: white;
+  margin: 10px 0;
+  margin-left: 70px;
+}
+.easybank-container {
+  background: hsl(0, 0%, 95%);
+}
+.articles-container {
+background: hsl(0, 0%, 91%);
+padding-bottom: 70px;
+}
+.choose-easybank {
+  padding: 50px 0 100px;
+}
