@@ -18,6 +18,7 @@ h2 {
 }
 h4 {
   margin: 20px 0;
+  font-weight: 300;
 }
 h6 {
   color:hsl(233, 8%, 62%) ;
@@ -25,6 +26,7 @@ h6 {
 }
 p {
   color: hsl(233, 8%, 62%);
+  line-height: 20px;
 }
 .wrapper {
   margin: auto;
@@ -39,7 +41,7 @@ p {
   justify-content: space-evenly;
   align-items: center;
   position: relative;
-  z-index: 2;
+  z-index: 3;
   background: white;
 }
 .header-section {
@@ -65,18 +67,20 @@ p {
   justify-content: space-around;
   align-items: center;
   background: hsl(0, 0%, 98%);
+  height: 500px;
 }
 .image {
   background: url('images/bg-intro-desktop.svg');
   position: relative;
-  background-position: 10% 80%;
+  background-position: 16%;
   background-repeat: no-repeat;
-  background-size: 220%;
+  background-size: 150%;
 }
 .body-principal-image {
   position: relative;
-  top: -60px;
-  left: 60px;
+  top: 50px;
+  left: 70px;
+  z-index: 2;
 }
 .body-principal-left {
   margin: 0;
@@ -125,14 +129,18 @@ p {
 }
 .advantage {
   padding-right: 15px;
+  margin-top: 40px;
 }
 .advantage h4 {
   font-size: 17px;
   color: hsl(233, 26%, 24%);
-  font-weight: 700;
+  font-weight: 400;
 }
 .advantage p {
   color: hsl(233, 8%, 62%);
+  width: 264px;
+  font-size: 16px;
+  line-height: 23px;
 }
 .Why-choose-Easybank-articles {
   display: flex;
@@ -184,6 +192,8 @@ p {
 }
 .easybank-container {
   background: hsl(0, 0%, 95%);
+  position: relative;
+  z-index: 1;
 }
 .articles-container {
 background: hsl(0, 0%, 91%);
